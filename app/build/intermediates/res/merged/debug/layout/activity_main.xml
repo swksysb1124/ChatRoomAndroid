@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#004488">
+
+    <LinearLayout
+        android:background="#008888"
+        android:id="@+id/FrameLayout01"
+        android:layout_height="50dp"
+        android:layout_width="fill_parent">
+
+        <EditText
+            android:background="#FFFFFF"
+            android:padding="13dp"
+            android:layout_margin="2dp"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/message"
+            android:layout_height="fill_parent"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:hint="Enter messages...">
+        </EditText>
+
+        <ImageButton
+            android:background="#008888"
+            android:id="@+id/submit"
+            android:layout_gravity="center_vertical"
+            android:src ="@drawable/send2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/dialogBlocks"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25sp"
+        android:maxLines = "15"
+        android:scrollbars = "vertical"
+        android:textColor="#FFFFFF"/>
+</LinearLayout><!-- From: file:/D:/AndroidProject/ChatRoomProject/app/src/main/res/layout/activity_main.xml -->

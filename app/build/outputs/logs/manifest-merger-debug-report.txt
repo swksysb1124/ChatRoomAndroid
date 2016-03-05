@@ -1,0 +1,65 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml:4:5-41
+		INJECTED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml:3:5-63
+	android:versionCode
+		INJECTED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml
+application
+ADDED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml:6:5-26:19
+MERGED from [com.android.support:appcompat-v7:23.1.0] D:\AndroidProject\ChatRoomProject\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] D:\AndroidProject\ChatRoomProject\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml:9:9-41
+	android:allowBackup
+		ADDED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml:7:9-35
+	android:icon
+		ADDED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml:8:9-38
+	android:theme
+		ADDED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml:10:9-56
+activity#com.weikai.chatroomproject.LogInActivity
+ADDED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml:12:9-19:20
+	android:label
+		ADDED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml:14:13-47
+	android:name
+		ADDED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml:13:13-42
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml:15:13-18:29
+action#android.intent.action.MAIN
+ADDED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml:17:27-74
+activity#com.weikai.chatroomproject.MainActivity
+ADDED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml:20:9-24:20
+	android:screenOrientation
+		ADDED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml:23:13-49
+	android:label
+		ADDED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml:22:13-45
+	android:name
+		ADDED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml:21:13-41
+uses-permission#android.permission.INTERNET
+ADDED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml:28:5-67
+	android:name
+		ADDED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml:28:22-64
+uses-sdk
+INJECTED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.1.0] D:\AndroidProject\ChatRoomProject\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] D:\AndroidProject\ChatRoomProject\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidProject\ChatRoomProject\app\src\main\AndroidManifest.xml
